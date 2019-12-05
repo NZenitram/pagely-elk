@@ -83,7 +83,7 @@ input {
 }
 ```
 
-Create grok filters to parse message body into key/value fields searchable from the Kibana UI and replace the default index's @timestamp key with date/time parsed from logs: 
+Create grok filters to parse message body into key/value fields searchable from the Kibana UI and replace the default index's `@timestamp` key with date/time parsed from logs: 
 
 ```
 filter {
