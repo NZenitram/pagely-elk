@@ -53,6 +53,35 @@ By default, the stack exposes the following ports:
 .es(q=server_response:200).label(200), .es(q=server_response:301).label(301), .es(q=server_response:302).label(302), .es(q=server_response:304).label(304), .es(q=server_response:404).label(404), .es(q=server_response:403).label(403), .es(q=server_response:429).label(429), .es(q=server_response:499).label(499), .es(q=server_response:500).label(500), .es(q=server_response:503).label(503)
 ```
 
+## Create Index and Import Visualizations 
+
+#### Create Index
+
+![create-index-1.png](images/create-index-1.png)
+
+#### Configure Settings - Select @timestamp
+
+![timestamp.png](images/timestamp.png)
+
+### Import Visualizations 
+
+#### Saved Objects
+
+![saved-objects.png](images/saved-objects.png)
+
+#### Import JSON
+
+![import-1.png](images/import-1.png)
+
+#### Select Index and Click Import at the Bottom Right
+
+![select-index.png](images/select-index.png)
+
+#### Success!
+
+![select-index.png](images/select-index.png)
+
+
 ## The Process
 
 Mount `access.log` file to container on `docker-compose up`:
