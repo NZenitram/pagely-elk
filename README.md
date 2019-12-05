@@ -83,7 +83,7 @@ input {
 }
 ```
 
-Create grok filters to parse message body into key/value fiels searchable from the Kibana UI and replace the default index's @timestamp key with date/time parsed from logs: 
+Create grok filters to parse message body into key/value fields searchable from the Kibana UI and replace the default index's @timestamp key with date/time parsed from logs: 
 
 ```
 filter {
@@ -110,7 +110,7 @@ Because we are replacing the `@timestamp` key with data parsed from our logs, we
 
 ![search](images/search-query.png)
 
-We can a nearly infinite number of search combinations against our data because of the way we used the `Grok` filter to create key value pairs from the message body. 
+We can run a nearly infinite number of search combinations against our data because of the way we used the `Grok` filter to create key value pairs from the message body. 
 
 The following images were produced to satisfy the Pagely Challenge requirements: 
 
