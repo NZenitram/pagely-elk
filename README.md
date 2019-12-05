@@ -114,9 +114,39 @@ We can a nearly infinite number of search combinations against our data because 
 
 The following images were produced to satisfy the Pagely Challenge requirements: 
 
+### Reponse Codes by Minute
+
+Within ELK, we can use the legend to filter out each code and scroll across the graph to view the number of responses at a 1 minute interval. This chart was created using the Timelion feature within ELK. 
+
+![Response-Codes-by-Minute.png](images/Response-Codes-by-Minute.png)
 
 
+### Response Code Count
 
+A line graph presents the count of each response code.
 
+![Response-Code-Count.png](images/Response-Code-Count.png)
 
+### Response Times by Second
 
+A line graph was also used to gather the data for the aggregate count of reponses within each timeframe specified in the challenge key. 
+
+![Response-Time-in-Seconds.png](images/Response-Time-in-Seconds.png)
+
+### Header Status Non-Hits
+
+A data set filter is returned below.
+
+![header-status-non-hits.png](images/header-status-non-hits.png)
+
+### Header Status Returns - Longer than 2 Seconds
+
+![2seconds.png](images/2seconds.png)
+
+### User Agents Grouped by IP non-hits
+
+![user-agent-ip-nonhits.png](images/user-agent-ip-nonhits.png)
+
+### User Agent Slower Than 5 Seconds
+
+![5seconds.png](images/5seconds.png)
