@@ -79,7 +79,7 @@ By default, the stack exposes the following ports:
 
 #### Success!
 
-![select-index.png](images/select-index.png)
+![success.png](images/success.png)
 
 
 ## The Process
